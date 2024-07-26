@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    padding: 5vw;
+}
+
+button{
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid rgb(0, 85, 255);
+    border-radius: 8%;
+    color: aqua;
+    font-weight: 600;
+    position: relative;
+    overflow: hidden;
+
+}
+button::after{
+    content: "";
+    height: 50%;
+    width: 50%;
+    border-radius: 50%;
+    background-color: rgb(0, 238, 255);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: all linear 0.5s;
+    z-index: -1;
+    transform: translate(-50%, -50%) scale(0);
+    
+}
+button:hover::after{
+    transform: translate(-50%, -50%) scale(4);
+
+}
+button:hover{
+    color: black;
+}
