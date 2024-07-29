@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: black;
+    padding: 5vw;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: antiquewhite;
+    position: relative  ;
+    padding-top: 1px;
+}
+#nav{
+    height: 12vh;
+    width: 100%;
+    /* background-color: red; */
+    margin-top: 40px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+#nav h1{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 45px;
+
+}
+#nav h2{
+    /* background-color: aquamarine; */
+    height: 100%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid black;
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav h2:nth-last-child(2){
+    width: 25%;
+
+}
+#nav h2:nth-last-child(1){
+    width: 12%;
+
+}
+
+#center{
+    height: 85%;
+    width: 100%;
+    position: relative;
+    padding: 4vw;
+}
+#content{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#content video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+#overlay{
+    height: 50%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 2vw;
+    color: white;
+}
+#over1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2vw;
+}
+#over1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 3.6vh;
+}
+#over1 h2{
+    font-size: 1.4vh;
+    padding: 2vw 2.4vw;
+    border-radius: 50%;
+    border: 1.5px solid #fff;
+}
+#over2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 2px solid #fff;
+    padding: 1.5vh 0;
+}
+#over2 h4{
+    font-size: 1.6vh;
+    font-weight: 500;
+}
+#over2 img{
+    height: 22px;
+}
